@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1 class="h1"><strong>Change the Color with one click ! </strong></h1>
+    <p>
+        <i>The beauty of colors is an enchanting symphony that dances across our lives, painting the world with infinite shades and tones. Each color tells its own story, whispering secrets of nature, emotion, and culture. Imagine the rich reds of autumn leaves, their hues burning with the passion of life cyclical dance. Or the soft pinks of dawn, tender and full of promise, like the gentle breath of a new beginning. Blues stretch across the sky and sea, evoking the vastness of the unknown, a calm yet powerful force that grounds us in serenity.
+
+    Colors have a language that speaks without words. The deep purples of twilight signal mystery, while the cheerful yellows of daffodils in spring burst forth with optimism and light. Green brings life to every corner, symbolizing growth, renewal, and the ever-changing cycles of nature. Even the starkness of black and white has its beauty — one defining shadows, the other illuminating purity. Together, they contrast and complement, teaching us balance and perspective.
+
+    In art, colors express the inexpressible. They convey emotions that transcend spoken language. A single brushstroke of red can suggest love or rage, while a wash of blue can bring peace or melancholy. Van Gogh's swirling yellows or Monet's tranquil greens remind us how colors shape our perceptions and influence our emotions.
+
+    In culture, colors hold significant meaning. From the vibrant festivals of India, where bright hues celebrate life, to the somber blacks of mourning in the West, colors define tradition and identity. They are woven into our clothes, our rituals, our daily lives. Every culture interprets them differently, yet universally, they carry power and symbolism that unite us as humans.
+
+    Colors in nature are a constant reminder of life beauty and complexity. From the iridescent wings of a butterfly to the ever-changing shades of a sunset, colors enrich our world. The chameleon shifts its hues to blend with its surroundings, while flowers bloom in a riot of colors to attract pollinators. Nature is the ultimate artist, using color as her paint to create awe-inspiring works of art.</i>
+    </p>
+    <div class="buttons">
+        <button class="red" type="button" onclick="changebg('#FF0000')">click me !</button>
+        <button class='blue' type="button" onclick="changebg('#0000FF')">click me !</button>
+        <button class="orange" type="button" onclick="changebg('#FFA500')">click me !</button>
+        <button class="green" type="button" onclick="changebg('#008000')">click me !</button>
+    </div>
+
+
+</body>
+<script>
+    function changebg(color){
+        document.body.style.backgroundColor = color;
+    }
+</script>
+</html>

@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 20px 100px;
+    background-color: blanchedalmond;
+}
+.h1{
+    text-align: center;
+
+}
+
+.img{
+    height: 400px;
+    width: 1200px;
+}
+
+.red{
+    background-color: red;
+    border-radius: 7px;
+}
+
+.blue{
+    background-color: blue;
+    border-radius: 7px;
+}
+
+.orange{
+    background-color: orange;
+    border-radius: 7px;
+}
+
+.green{
+    background-color: green;
+    border-radius: 7px;
+}
+
+.buttons{
+    padding: 50px;
+    margin: 50px;
+}
+
+
+
+.red,.blue,.orange,.green{
+    display: flex;
+    justify-content: center;  /* Align buttons horizontally in the center */
+    align-items: center;
+    flex-wrap: nowrap;  /* Allows buttons to wrap if needed */
+    padding: 50px;
+    margin: 50px;
+}
+.red,.blue,.orange,.green:hover{
+    cursor: pointer;
+}
